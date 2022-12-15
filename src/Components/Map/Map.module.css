@@ -1,0 +1,86 @@
+[class*="copyrights-pane"] {
+    display: none !important;
+}
+
+ymaps[class*="-search__suggest"][class*="-custom-scroll"] {
+    padding: 0 !important;
+    margin-top: 10px;
+    max-height: 350px !important;
+    opacity: 0.85!important;
+    box-shadow: 5px 10px 8px 6px rgba(0, 0, 0, 0.15) !important;
+    border: 2px solid rgba(60, 60, 60, 0.26) !important;
+    border-radius: 4px;
+}
+ymaps[class*="-search__suggest"][class*="-custom-scroll"] ymaps[class*="-suggest-item-"] :hover {
+    cursor: pointer;
+}
+ymaps[class*="-search__suggest"][class*="-custom-scroll"] ymaps[class*="-suggest-item-"] > ymaps[class*="__suggest-item_selected_yes"] {
+    background-color: #f53233 !important;
+    color: #fff;
+}
+
+.input {
+    margin-left: 5%;
+    margin-top: 0.5%;
+    width: 90%;
+    position: absolute !important;
+    z-index: 2 !important;
+    border-radius: 10px;
+    border-color: #ED2324;
+    height: 35px;
+    opacity: 0.85;
+}
+
+.input:focus {
+    border-color: black;
+}
+
+.input__wrapper_show-dropdown .ymaps-2-1-79-search__suggest {
+    display: block !important;
+}
+
+.input__wrapper_hide-dropdown .ymaps-2-1-79-search__suggest {
+    visibility: hidden !important;
+}
+
+.button {
+    position: absolute !important;
+    z-index: 2 !important;
+    background-color: #ED2324 !important;
+    bottom: 10%;
+    right: 2%;
+}
+
+.button:hover {
+    cursor: pointer;
+    background: darkred !important;
+}
+
+.buttonAdd {
+    align-content: center;
+    border: 1px #ED2324 !important;
+    background-color: #ED2324 !important;
+    font-size: large;
+    color: white !important;
+    padding: 5px;
+    margin: 5px;
+}
+
+.buttonAdd:hover {
+    cursor: pointer;
+    background-color: darkred !important;
+}
+
+.formControll {
+    width: 100%;
+}
+
+.inputLabel {
+    color: #ED2324;
+    letter-spacing: 0.099em;
+}
+
+.inputLabel :active {
+    color: darkred !important;
+}
+

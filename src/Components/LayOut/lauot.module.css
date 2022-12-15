@@ -1,0 +1,46 @@
+.layout{
+    font-size: 30px;
+}
+.header{
+    background: #fdfff5;
+}
+.footer{
+    position: relative;
+    margin-left: 10%;
+    border-top: 1px solid black ;
+    width: 80%;
+    background: #fdfff5;
+}
+
+.popover_class{
+    width: 580px;
+    height: 288px;
+    border: 25px !important;
+    border-color: #ED2324;
+}
+
+.modal{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 15px;
+}
+
+.buttonSearch {
+    border: 1px #ED2324 !important;
+    background-color: #ED2324 !important;
+    border-radius: 0 10px 10px 0 !important;
+    color: white !important;
+}
+.buttonSearch:hover{
+    background-color: darkred!important;
+}
+.buttonSearch1 {
+    border: 1px #ED2324 !important;
+    background-color: #ED2324 !important;
+    border-radius: 0 15px 15px 0 !important;
+    color: white !important;
+}
+.buttonSearch1:hover{
+    background-color: darkred!important;
+}
